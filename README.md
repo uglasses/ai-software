@@ -347,6 +347,8 @@ python3 -m venv .venv
 
 ## 测试命令
 
+综合测试与质量保障（集成测试、可靠性指标、兼容性、代码审查、容错、性能、验收等）见 [docs/测试与质量保障方案.md](docs/测试与质量保障方案.md)。
+
 ### 前端
 
 ```bash
@@ -354,12 +356,16 @@ cd frontend
 npm test
 ```
 
+路由配置单元测试说明见 [docs/前端路由单元测试说明.md](docs/前端路由单元测试说明.md)。
+
 ### 后端
 
 ```bash
 cd backend
 mvn test
 ```
+
+说明：若主配置里将 `spring.sql.init.mode` 设为 `never`（例如使用文件型 H2 且自行管理建表），**单元/集成测试**仍会通过 `backend/src/test/resources/application.yml` 使用内存库并 **`mode: always`** 执行 `schema.sql`，避免 `JOB_INFO` 等表缺失导致 `ResumeHistoryDetailIntegrationTest` 失败。
 
 ### AI 服务
 

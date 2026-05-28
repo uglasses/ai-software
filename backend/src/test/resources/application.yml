@@ -1,0 +1,9 @@
+# 仅测试使用：覆盖主配置里 spring.sql.init.mode=never，否则表未创建会导致集成测试失败。
+spring:
+  datasource:
+    url: jdbc:h2:mem:test_job_platform;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always

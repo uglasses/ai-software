@@ -15,7 +15,9 @@ spring:
       path: /h2-console
   sql:
     init:
-      mode: never
+      # 执行 classpath:schema.sql 建表；脚本使用 IF NOT EXISTS，可安全重复执行。
+      # 若改用 MySQL 并由 Flyway/Liquibase 管理库结构，可改为 never 并关闭此处。
+      mode: always
       encoding: UTF-8
 
 mybatis-plus:

@@ -12,5 +12,7 @@ describe('router', () => {
     expect(routeNames).toContain('resume-history')
     expect(routeNames).toContain('resume-history-detail')
     expect(routeNames).toContain('admin')
+    expect(routeNames).toContain('login')
+    expect(routeNames).toContain('job-detail')
   })
 })
