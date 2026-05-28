@@ -1,0 +1,48 @@
+﻿resume_id,parsed_name,parsed_education,parsed_school,parsed_major,parsed_skills_json,model_name
+8,陈静,本科,武汉大学,计算机科学与技术,"[""Vue.js"", ""React"", ""HTML5"", ""CSS3"", ""JavaScript""]",deepseek-chat
+10,张伟,本科,复旦大学,数学与应用数学,"[""测试用例"", ""自动化测试"", ""Selenium"", ""JMeter""]",deepseek-chat
+13,杨磊,博士,复旦大学,网络工程,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",deepseek-chat
+14,杨磊,博士,清华大学,电子信息工程,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",gpt-4
+15,黄强,本科,上海交通大学,计算机科学与技术,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",deepseek-chat
+19,王芳,博士,四川大学,数学与应用数学,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",gpt-4
+20,杨磊,本科,四川大学,软件工程,"[""SQL"", ""Excel"", ""Python"", ""Tableau""]",deepseek-chat
+26,刘洋,硕士,浙江大学,数学与应用数学,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",mock-model
+27,杨磊,博士,复旦大学,人工智能,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",gpt-4
+34,王芳,硕士,复旦大学,人工智能,"[""SQL"", ""Excel"", ""Python"", ""Tableau""]",mock-model
+37,李娜,博士,浙江大学,计算机科学与技术,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",gpt-4
+38,刘洋,硕士,武汉大学,数学与应用数学,"[""Vue.js"", ""React"", ""HTML5"", ""CSS3"", ""JavaScript""]",mock-model
+44,张伟,本科,四川大学,信息安全,"[""Hadoop"", ""Spark"", ""Flink"", ""Hive""]",gpt-4
+46,赵敏,本科,南京大学,数学与应用数学,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",deepseek-chat
+48,陈静,博士,华中科技大学,计算机科学与技术,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",mock-model
+50,刘洋,硕士,清华大学,信息安全,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",gpt-4
+53,赵敏,硕士,复旦大学,数学与应用数学,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",gpt-4
+54,赵敏,本科,四川大学,数据科学与大数据技术,"[""Java"", ""Spring Boot"", ""MySQL"", ""Redis""]",mock-model
+55,刘洋,本科,华中科技大学,通信工程,"[""Vue.js"", ""React"", ""HTML5"", ""CSS3"", ""JavaScript""]",mock-model
+62,王芳,硕士,复旦大学,人工智能,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",deepseek-chat
+71,赵敏,博士,浙江大学,自动化,"[""SQL"", ""Excel"", ""Python"", ""Tableau""]",gpt-4
+75,李娜,博士,华中科技大学,电子信息工程,"[""SQL"", ""Excel"", ""Python"", ""Tableau""]",gpt-4
+79,刘洋,硕士,北京大学,信息安全,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",gpt-4
+81,黄强,博士,华中科技大学,数据科学与大数据技术,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",mock-model
+84,陈静,硕士,四川大学,网络工程,"[""SQL"", ""Excel"", ""Python"", ""Tableau""]",gpt-4
+91,李娜,博士,复旦大学,通信工程,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",mock-model
+95,王芳,本科,中山大学,数学与应用数学,"[""Vue.js"", ""React"", ""HTML5"", ""CSS3"", ""JavaScript""]",gpt-4
+96,李娜,博士,清华大学,人工智能,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",gpt-4
+97,杨磊,博士,武汉大学,人工智能,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",deepseek-chat
+104,陈静,本科,清华大学,信息安全,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",gpt-4
+105,杨磊,博士,武汉大学,数学与应用数学,"[""Java"", ""Spring Boot"", ""MySQL"", ""Redis""]",deepseek-chat
+106,黄强,硕士,中山大学,信息安全,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",mock-model
+108,刘洋,硕士,上海交通大学,信息安全,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",gpt-4
+115,王芳,本科,浙江大学,通信工程,"[""Hadoop"", ""Spark"", ""Flink"", ""Hive""]",mock-model
+116,王芳,博士,华中科技大学,信息安全,"[""Hadoop"", ""Spark"", ""Flink"", ""Hive""]",deepseek-chat
+121,张伟,本科,上海交通大学,数学与应用数学,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",gpt-4
+126,黄强,硕士,武汉大学,自动化,"[""Sketch"", ""Figma"", ""Photoshop"", ""UI设计""]",deepseek-chat
+127,黄强,博士,上海交通大学,人工智能,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",mock-model
+130,张伟,硕士,复旦大学,软件工程,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",mock-model
+133,陈静,本科,华中科技大学,自动化,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",deepseek-chat
+135,李娜,博士,中山大学,数学与应用数学,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",gpt-4
+136,李娜,硕士,四川大学,计算机科学与技术,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",deepseek-chat
+137,赵敏,硕士,武汉大学,信息安全,"[""Vue.js"", ""React"", ""HTML5"", ""CSS3"", ""JavaScript""]",mock-model
+138,刘洋,博士,中山大学,自动化,"[""Axure"", ""墨刀"", ""需求分析"", ""原型设计""]",mock-model
+140,杨磊,硕士,华中科技大学,电子信息工程,"[""Linux"", ""Docker"", ""K8s"", ""Prometheus""]",deepseek-chat
+147,刘洋,本科,复旦大学,通信工程,"[""Python"", ""TensorFlow"", ""PyTorch"", ""机器学习""]",mock-model
+148,刘洋,博士,浙江大学,通信工程,"[""Golang"", ""微服务"", ""分布式系统"", ""RPC""]",deepseek-chat
