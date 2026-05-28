@@ -15,7 +15,7 @@ spring:
       path: /h2-console
   sql:
     init:
-      mode: never
+      mode: always
       encoding: UTF-8
 
 mybatis-plus:

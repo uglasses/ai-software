@@ -1,0 +1,150 @@
+﻿id,user_id,resume_name,file_url,file_type,resume_text,target_position,parse_status,is_default
+1,1,测试工程师简历,/uploads/resume_1.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,测试工程师,0,1
+2,1,前端开发简历,/uploads/resume_2.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,前端开发,1,1
+3,2,Java开发简历,/uploads/resume_3.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,Java开发,1,0
+4,2,测试工程师简历,/uploads/resume_4.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,测试工程师,0,0
+5,3,Python开发简历,/uploads/resume_5.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,Python开发,1,0
+6,4,Python开发简历,/uploads/resume_6.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Python开发,1,0
+7,4,数据分析简历,/uploads/resume_7.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,数据分析,0,0
+8,5,大数据开发简历,/uploads/resume_8.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,大数据开发,2,0
+9,5,UI设计师简历,/uploads/resume_9.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,UI设计师,1,1
+10,6,测试工程师简历,/uploads/resume_10.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,测试工程师,2,0
+11,7,Java开发简历,/uploads/resume_11.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,Java开发,0,0
+12,8,Python开发简历,/uploads/resume_12.pdf,pdf,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,Python开发,0,0
+13,9,大数据开发简历,/uploads/resume_13.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,大数据开发,2,0
+14,9,运维工程师简历,/uploads/resume_14.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,运维工程师,2,0
+15,10,产品经理简历,/uploads/resume_15.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,产品经理,2,0
+16,11,前端开发简历,/uploads/resume_16.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,前端开发,1,0
+17,11,前端开发简历,/uploads/resume_17.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,前端开发,0,0
+18,12,产品经理简历,/uploads/resume_18.docx,docx,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,产品经理,1,0
+19,12,产品经理简历,/uploads/resume_19.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,产品经理,2,0
+20,13,运维工程师简历,/uploads/resume_20.pdf,pdf,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,运维工程师,2,1
+21,14,UI设计师简历,/uploads/resume_21.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,UI设计师,0,0
+22,14,运维工程师简历,/uploads/resume_22.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,运维工程师,1,0
+23,15,算法工程师简历,/uploads/resume_23.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,算法工程师,1,0
+24,15,运维工程师简历,/uploads/resume_24.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,运维工程师,1,0
+25,16,数据分析简历,/uploads/resume_25.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,数据分析,0,0
+26,17,前端开发简历,/uploads/resume_26.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,前端开发,2,0
+27,18,测试工程师简历,/uploads/resume_27.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,测试工程师,2,0
+28,18,Java开发简历,/uploads/resume_28.pdf,pdf,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,Java开发,1,0
+29,19,Java开发简历,/uploads/resume_29.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,Java开发,1,1
+30,20,运维工程师简历,/uploads/resume_30.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,运维工程师,0,0
+31,21,大数据开发简历,/uploads/resume_31.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,大数据开发,0,0
+32,22,大数据开发简历,/uploads/resume_32.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,大数据开发,1,0
+33,23,测试工程师简历,/uploads/resume_33.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,测试工程师,1,0
+34,23,UI设计师简历,/uploads/resume_34.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,UI设计师,2,1
+35,24,算法工程师简历,/uploads/resume_35.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,算法工程师,1,1
+36,25,Java开发简历,/uploads/resume_36.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Java开发,0,0
+37,26,UI设计师简历,/uploads/resume_37.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,UI设计师,2,0
+38,26,UI设计师简历,/uploads/resume_38.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,UI设计师,2,1
+39,27,数据分析简历,/uploads/resume_39.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,数据分析,1,0
+40,27,运维工程师简历,/uploads/resume_40.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,运维工程师,0,0
+41,28,运维工程师简历,/uploads/resume_41.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,运维工程师,0,0
+42,29,前端开发简历,/uploads/resume_42.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,前端开发,1,0
+43,29,算法工程师简历,/uploads/resume_43.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,算法工程师,1,1
+44,30,测试工程师简历,/uploads/resume_44.docx,docx,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,测试工程师,2,0
+45,30,前端开发简历,/uploads/resume_45.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,前端开发,0,0
+46,31,算法工程师简历,/uploads/resume_46.pdf,pdf,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,算法工程师,2,0
+47,32,UI设计师简历,/uploads/resume_47.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,UI设计师,1,0
+48,33,数据分析简历,/uploads/resume_48.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,数据分析,2,0
+49,33,UI设计师简历,/uploads/resume_49.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,UI设计师,1,1
+50,34,Java开发简历,/uploads/resume_50.pdf,pdf,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,Java开发,2,0
+51,35,Python开发简历,/uploads/resume_51.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,Python开发,1,0
+52,36,算法工程师简历,/uploads/resume_52.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,算法工程师,1,0
+53,37,数据分析简历,/uploads/resume_53.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,数据分析,2,1
+54,38,数据分析简历,/uploads/resume_54.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,数据分析,2,1
+55,39,测试工程师简历,/uploads/resume_55.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,测试工程师,2,0
+56,39,产品经理简历,/uploads/resume_56.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,产品经理,0,1
+57,40,前端开发简历,/uploads/resume_57.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,前端开发,0,1
+58,41,产品经理简历,/uploads/resume_58.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,产品经理,0,0
+59,41,Java开发简历,/uploads/resume_59.pdf,pdf,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,Java开发,0,0
+60,42,运维工程师简历,/uploads/resume_60.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,运维工程师,1,0
+61,42,UI设计师简历,/uploads/resume_61.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,UI设计师,0,0
+62,43,前端开发简历,/uploads/resume_62.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,前端开发,2,1
+63,43,运维工程师简历,/uploads/resume_63.pdf,pdf,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,运维工程师,1,1
+64,44,测试工程师简历,/uploads/resume_64.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,测试工程师,0,0
+65,45,Python开发简历,/uploads/resume_65.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,Python开发,0,1
+66,46,大数据开发简历,/uploads/resume_66.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,大数据开发,0,0
+67,46,UI设计师简历,/uploads/resume_67.pdf,pdf,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,UI设计师,1,0
+68,47,算法工程师简历,/uploads/resume_68.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,算法工程师,1,0
+69,48,数据分析简历,/uploads/resume_69.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,数据分析,1,0
+70,49,UI设计师简历,/uploads/resume_70.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,UI设计师,0,0
+71,50,Python开发简历,/uploads/resume_71.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,Python开发,2,0
+72,50,UI设计师简历,/uploads/resume_72.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,UI设计师,0,0
+73,51,数据分析简历,/uploads/resume_73.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,数据分析,0,0
+74,52,大数据开发简历,/uploads/resume_74.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,大数据开发,1,0
+75,52,算法工程师简历,/uploads/resume_75.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,算法工程师,2,0
+76,53,测试工程师简历,/uploads/resume_76.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,测试工程师,1,0
+77,54,大数据开发简历,/uploads/resume_77.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,大数据开发,1,1
+78,54,算法工程师简历,/uploads/resume_78.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,算法工程师,1,0
+79,55,算法工程师简历,/uploads/resume_79.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,算法工程师,2,0
+80,55,数据分析简历,/uploads/resume_80.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,数据分析,1,0
+81,56,运维工程师简历,/uploads/resume_81.docx,docx,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,运维工程师,2,0
+82,56,产品经理简历,/uploads/resume_82.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,产品经理,1,0
+83,57,测试工程师简历,/uploads/resume_83.docx,docx,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,测试工程师,0,1
+84,58,算法工程师简历,/uploads/resume_84.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,算法工程师,2,0
+85,59,前端开发简历,/uploads/resume_85.pdf,pdf,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,前端开发,1,1
+86,59,产品经理简历,/uploads/resume_86.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,产品经理,1,1
+87,60,算法工程师简历,/uploads/resume_87.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,算法工程师,1,0
+88,60,Java开发简历,/uploads/resume_88.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,Java开发,0,0
+89,61,Java开发简历,/uploads/resume_89.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Java开发,1,1
+90,61,产品经理简历,/uploads/resume_90.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,产品经理,1,0
+91,62,前端开发简历,/uploads/resume_91.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,前端开发,2,1
+92,63,算法工程师简历,/uploads/resume_92.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,算法工程师,1,0
+93,63,Python开发简历,/uploads/resume_93.pdf,pdf,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,Python开发,0,0
+94,64,产品经理简历,/uploads/resume_94.pdf,pdf,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,产品经理,1,0
+95,64,大数据开发简历,/uploads/resume_95.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,大数据开发,2,1
+96,65,运维工程师简历,/uploads/resume_96.pdf,pdf,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,运维工程师,2,0
+97,65,Python开发简历,/uploads/resume_97.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,Python开发,2,0
+98,66,Python开发简历,/uploads/resume_98.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,Python开发,1,0
+99,66,算法工程师简历,/uploads/resume_99.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,算法工程师,0,0
+100,67,UI设计师简历,/uploads/resume_100.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,UI设计师,1,1
+101,68,数据分析简历,/uploads/resume_101.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,数据分析,1,1
+102,69,数据分析简历,/uploads/resume_102.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,数据分析,0,0
+103,69,前端开发简历,/uploads/resume_103.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,前端开发,1,0
+104,70,Java开发简历,/uploads/resume_104.docx,docx,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,Java开发,2,0
+105,71,运维工程师简历,/uploads/resume_105.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,运维工程师,2,0
+106,71,测试工程师简历,/uploads/resume_106.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,测试工程师,2,0
+107,72,UI设计师简历,/uploads/resume_107.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,UI设计师,0,0
+108,73,运维工程师简历,/uploads/resume_108.pdf,pdf,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,运维工程师,2,0
+109,73,Java开发简历,/uploads/resume_109.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,Java开发,0,0
+110,74,Python开发简历,/uploads/resume_110.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,Python开发,0,0
+111,75,算法工程师简历,/uploads/resume_111.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,算法工程师,1,0
+112,75,测试工程师简历,/uploads/resume_112.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,测试工程师,1,0
+113,76,Python开发简历,/uploads/resume_113.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,Python开发,1,0
+114,76,前端开发简历,/uploads/resume_114.pdf,pdf,精通Java、Python，熟悉分布式系统架构。有5年开发经验，带领过10人团队。,前端开发,1,0
+115,77,Java开发简历,/uploads/resume_115.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Java开发,2,0
+116,78,Java开发简历,/uploads/resume_116.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,Java开发,2,0
+117,78,运维工程师简历,/uploads/resume_117.pdf,pdf,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,运维工程师,1,0
+118,79,算法工程师简历,/uploads/resume_118.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,算法工程师,1,0
+119,80,前端开发简历,/uploads/resume_119.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,前端开发,0,0
+120,81,算法工程师简历,/uploads/resume_120.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,算法工程师,1,1
+121,81,Java开发简历,/uploads/resume_121.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,Java开发,2,0
+122,82,算法工程师简历,/uploads/resume_122.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,算法工程师,0,1
+123,82,UI设计师简历,/uploads/resume_123.pdf,pdf,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,UI设计师,0,0
+124,83,数据分析简历,/uploads/resume_124.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,数据分析,1,1
+125,84,运维工程师简历,/uploads/resume_125.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,运维工程师,1,0
+126,84,算法工程师简历,/uploads/resume_126.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,算法工程师,2,1
+127,85,产品经理简历,/uploads/resume_127.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,产品经理,2,1
+128,86,Python开发简历,/uploads/resume_128.pdf,pdf,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,Python开发,1,0
+129,87,运维工程师简历,/uploads/resume_129.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,运维工程师,1,1
+130,87,产品经理简历,/uploads/resume_130.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,产品经理,2,0
+131,88,前端开发简历,/uploads/resume_131.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,前端开发,1,1
+132,89,Python开发简历,/uploads/resume_132.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,Python开发,0,0
+133,90,Java开发简历,/uploads/resume_133.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Java开发,2,0
+134,91,测试工程师简历,/uploads/resume_134.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,测试工程师,0,1
+135,91,产品经理简历,/uploads/resume_135.pdf,pdf,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,产品经理,2,0
+136,92,数据分析简历,/uploads/resume_136.docx,docx,熟练使用SQL、Excel、Python进行数据分析。熟悉Tableau、PowerBI等可视化工具。,数据分析,2,0
+137,92,Python开发简历,/uploads/resume_137.docx,docx,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,Python开发,2,0
+138,93,大数据开发简历,/uploads/resume_138.docx,docx,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,大数据开发,2,0
+139,93,Python开发简历,/uploads/resume_139.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Python开发,0,0
+140,94,Python开发简历,/uploads/resume_140.docx,docx,熟悉Hadoop、Spark、Flink等大数据技术栈。有2年大数据开发经验。,Python开发,2,0
+141,94,Java开发简历,/uploads/resume_141.pdf,pdf,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,Java开发,0,0
+142,95,测试工程师简历,/uploads/resume_142.docx,docx,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,测试工程师,1,0
+143,96,大数据开发简历,/uploads/resume_143.pdf,pdf,熟悉Linux系统运维，掌握Docker、K8s容器化技术。有3年运维经验。,大数据开发,0,0
+144,96,数据分析简历,/uploads/resume_144.docx,docx,熟悉软件测试流程，掌握自动化测试框架。有2年测试经验。,数据分析,1,1
+145,97,Python开发简历,/uploads/resume_145.pdf,pdf,熟悉UI/UX设计，精通Sketch、Figma、PS等设计工具。有2年设计经验。,Python开发,1,0
+146,97,算法工程师简历,/uploads/resume_146.docx,docx,熟练掌握Python，熟悉机器学习、深度学习算法。有1年AI开发经验。,算法工程师,0,0
+147,98,数据分析简历,/uploads/resume_147.docx,docx,有2年产品经理经验，熟悉Axure、墨刀等原型设计工具。具备良好的需求分析能力。,数据分析,2,1
+148,99,运维工程师简历,/uploads/resume_148.pdf,pdf,精通Vue.js、React框架，熟悉HTML5/CSS3/JavaScript。有2年前端开发经验。,运维工程师,2,0
+149,100,Java开发简历,/uploads/resume_149.docx,docx,熟悉Java编程，掌握Spring Boot、MySQL、Redis等技术栈。有3年后端开发经验。,Java开发,0,0
