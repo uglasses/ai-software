@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -77,32 +77,32 @@
 <a name='L12'></a><a href='#L12'>12</a>
 <a name='L13'></a><a href='#L13'>13</a>
 <a name='L14'></a><a href='#L14'>14</a>
-<a name='L15'></a><a href='#L15'>15</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L15'></a><a href='#L15'>15</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >&lt;template&gt;<span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ></span></span></span>
-<span class="cstat-no" title="statement not covered" >  &lt;el-card class="content-section" shadow="never"&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;template #header&gt;岗位详情&lt;/template&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;el-descriptions :column="2" border&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="岗位 ID"&gt;{{ $route.params.id }}&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="岗位名称"&gt;Java 后端开发实习生&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="城市"&gt;上海&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="薪资"&gt;10K-15K&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="技能要求"&gt;Java、Spring Boot、MySQL&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;el-descriptions-item label="学历要求"&gt;本科及以上&lt;/el-descriptions-item&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;/el-descriptions&gt;</span>
-<span class="cstat-no" title="statement not covered" >  &lt;/el-card&gt;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+  &lt;el-card class="content-section" shadow="never"&gt;
+    &lt;template #header&gt;岗位详情&lt;/template&gt;
+    &lt;el-descriptions :column="2" border&gt;
+      &lt;el-descriptions-item label="岗位 ID"&gt;{{ $route.params.id }}&lt;/el-descriptions-item&gt;
+      &lt;el-descriptions-item label="岗位名称"&gt;Java 后端开发实习生&lt;/el-descriptions-item&gt;
+      &lt;el-descriptions-item label="城市"&gt;上海&lt;/el-descriptions-item&gt;
+      &lt;el-descriptions-item label="薪资"&gt;10K-15K&lt;/el-descriptions-item&gt;
+      &lt;el-descriptions-item label="技能要求"&gt;Java、Spring Boot、MySQL&lt;/el-descriptions-item&gt;
+      &lt;el-descriptions-item label="学历要求"&gt;本科及以上&lt;/el-descriptions-item&gt;
+    &lt;/el-descriptions&gt;
+  &lt;/el-card&gt;
 &lt;/template&gt;
 &nbsp;
 &nbsp;</pre></td></tr></table></pre>
@@ -112,7 +112,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-05-27T11:28:51.132Z
+                at 2026-06-11T06:59:55.747Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

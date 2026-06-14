@@ -139,6 +139,7 @@ async function loadDetail() {
 }
 
 async function handleGenerateAdvice() {
+  const startedAt = performance.now()
   adviceLoading.value = true
   try {
     const result = await generateJobSelectionAdvice(route.params.id)
@@ -149,6 +150,9 @@ async function handleGenerateAdvice() {
     const data = result.data || {}
     detail.jobSelectionAdvice = data.advice || ''
     detail.jobSelectionAdviceModel = data.model || ''
+    console.log(
+      `[DeepSeek] 岗位选择建议 点击到生成成功耗时: ${(performance.now() - startedAt).toFixed(1)} ms`
+    )
     ElMessage.success('岗位选择建议已生成')
   } catch (error) {
     ElMessage.error(error?.response?.data?.message || error?.message || '生成失败')
@@ -158,6 +162,7 @@ async function handleGenerateAdvice() {
 }
 
 async function handleInterestResumeAdvice() {
+  const startedAt = performance.now()
   interestAdviceLoading.value = true
   try {
     const result = await generateInterestResumeAdvice(route.params.id)
@@ -168,6 +173,9 @@ async function handleInterestResumeAdvice() {
     const data = result.data || {}
     detail.interestResumeAdvice = data.advice || ''
     detail.interestResumeAdviceModel = data.model || ''
+    console.log(
+      `[DeepSeek] 兴趣岗位简历建议 点击到生成成功耗时: ${(performance.now() - startedAt).toFixed(1)} ms`
+    )
     ElMessage.success('兴趣岗位简历建议已生成')
   } catch (error) {
     ElMessage.error(error?.response?.data?.message || error?.message || '生成失败')

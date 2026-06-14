@@ -59,9 +59,14 @@ async function handleSubmit() {
     ElMessage.warning('请先填写手机号/邮箱和密码')
     return
   }
+  if (activeTab.value === 'register' && form.password.trim().length < 6) {
+    ElMessage.warning('密码长度需在 6～64 位')
+    return
+  }
   submitting.value = true
+  const isRegister = activeTab.value === 'register'
   try {
-    if (activeTab.value === 'register') {
+    if (isRegister) {
       const payload = {
         username: form.username.trim() || null,
         ...splitIdentifier(form.identifier),
@@ -81,7 +86,8 @@ async function handleSubmit() {
     ElMessage.success('登录成功')
     await router.push('/resume')
   } catch (error) {
-    ElMessage.error(error?.response?.data?.message || '操作失败')
+    const fallback = isRegister ? '注册失败' : '登录失败'
+    ElMessage.error(error?.message || fallback)
   } finally {
     submitting.value = false
   }

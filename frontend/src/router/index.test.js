@@ -15,4 +15,11 @@ describe('router', () => {
     expect(routeNames).toContain('login')
     expect(routeNames).toContain('job-detail')
   })
+
+  it('setsDocumentTitleFromMeta', async () => {
+    await router.push({ name: 'dashboard' })
+    await router.isReady()
+
+    expect(document.title).toBe('首页看板 - 招聘数据分析平台')
+  })
 })

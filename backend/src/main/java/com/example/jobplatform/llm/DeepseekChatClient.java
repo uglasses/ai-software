@@ -4,6 +4,8 @@ import com.example.jobplatform.config.DeepseekProperties;
 import com.example.jobplatform.exception.DeepseekException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
@@ -16,6 +18,8 @@ import java.util.Map;
 
 @Component
 public class DeepseekChatClient {
+
+    private static final Logger log = LoggerFactory.getLogger(DeepseekChatClient.class);
 
     private final RestClient deepseekRestClient;
     private final ObjectMapper objectMapper;
@@ -41,6 +45,8 @@ public class DeepseekChatClient {
                 Map.of("role", "user", "content", userPrompt)
             )
         );
+        long startedAt = System.nanoTime();
+        boolean success = false;
         try {
             String raw = deepseekRestClient.post()
                 .uri("/v1/chat/completions")
@@ -66,6 +72,7 @@ public class DeepseekChatClient {
             if (content == null || content.isBlank()) {
                 throw new DeepseekException("DeepSeek 返回内容为空");
             }
+            success = true;
             return content.trim();
         } catch (RestClientResponseException e) {
             String hint = e.getResponseBodyAsString();
@@ -80,6 +87,10 @@ public class DeepseekChatClient {
             throw e;
         } catch (Exception e) {
             throw new DeepseekException("解析 DeepSeek 响应失败: " + e.getMessage(), e);
+        } finally {
+            long elapsedMs = (System.nanoTime() - startedAt) / 1_000_000L;
+            log.info("[DeepSeek] chatCompletion {}，耗时: {} ms，model={}",
+                success ? "成功" : "失败", elapsedMs, useModel);
         }
     }
 }

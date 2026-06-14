@@ -145,6 +145,7 @@ function handleFileRemove() {
 }
 
 async function handleUploadAndMatch() {
+  const uploadStartedAt = performance.now()
   ensureLogin()
   if (!resumeForm.resumeName.trim()) {
     ElMessage.warning('请填写简历名称')
@@ -167,6 +168,8 @@ async function handleUploadAndMatch() {
       ElMessage.error(createResult.message || '简历上传失败')
       return
     }
+    const uploadElapsedMs = performance.now() - uploadStartedAt
+    console.log(`[简历上传] 点击到上传成功耗时: ${uploadElapsedMs.toFixed(1)} ms`)
     const resumeId = createResult.data?.resumeId
     if (resumeId == null) {
       ElMessage.error('上传成功但未返回简历ID')
